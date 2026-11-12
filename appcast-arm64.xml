@@ -2,6 +2,24 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <title>KDevTool</title>
+        <link>https://github.com/wangwanjie/KDevTool</link>
+        <description>KDevTool release feed.</description>
+        <language>en</language>
+        <item>
+            <title>1.1.1</title>
+            <pubDate>Thu, 12 Nov 2026 17:05:10 +0800</pubDate>
+            <link>https://github.com/wangwanjie/KDevTool/releases/tag/v1.1.1</link>
+            <sparkle:version>3</sparkle:version>
+            <sparkle:shortVersionString>1.1.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://github.com/wangwanjie/KDevTool/releases/download/v1.1.1/KDevTool-1.1.1-arm64.dmg" length="4389090" type="application/octet-stream" sparkle:edSignature="ft9fxSG1ZuaHfhdNnVoxHo9aFNKJfx1fihLW5Bk2cjEIUtBqugJBQa9BiAkq+9/PhOwpEaf7naKiNIfOh6+cBg==" />
+            <description>&lt;h2&gt;KDevTool 1.1.1&lt;/h2&gt;
+&lt;h3&gt;修复&lt;/h3&gt;
+&lt;ul&gt;&lt;li&gt;&lt;strong&gt;目标分支远端已存在时，Pod 不会合并基础分支的最新代码&lt;/strong&gt;：现在以基础分支 Podfile 中各 Pod 的指向（分支 / commit）为准进行合并。&lt;/li&gt;&lt;/ul&gt;
+&lt;h3&gt;新增&lt;/h3&gt;
+&lt;ul&gt;&lt;li&gt;&lt;strong&gt;目标分支历史&lt;/strong&gt;：目标分支输入框旁新增历史记录，最多保留 10 条，可单个删除。&lt;/li&gt;&lt;li&gt;&lt;strong&gt;合并冲突提示&lt;/strong&gt;：检出时合并有冲突的仓库会在结束后明确列出，并自动跳过编译，需先解决冲突。&lt;/li&gt;&lt;li&gt;&lt;strong&gt;执行模式&lt;/strong&gt;：「执行」旁新增「完整流程 / 只 Pod / Pod + 编译」，手动解决冲突后可跳过前面步骤。&lt;/li&gt;&lt;/ul&gt;</description>
+        </item>
         <item>
             <title>1.1</title>
             <pubDate>Wed, 11 Nov 2026 11:18:17 +0800</pubDate>
@@ -18,8 +36,5 @@
 &lt;ul&gt;&lt;li&gt;&lt;strong&gt;worktree 模式下目标分支正被原目录检出时静默在原目录执行&lt;/strong&gt;：现在会明确报错并提示处理方式，不再误在原工程目录内运行。&lt;/li&gt;&lt;li&gt;日志超过上限时优先丢弃最旧的命令输出，保留命令与步骤等关键日志。&lt;/li&gt;&lt;/ul&gt;
 &lt;p&gt;1.0 版本不含更新功能，请手动下载安装本版本，此后即可自动更新。&lt;/p&gt;</description>
         </item>
-        <link>https://github.com/wangwanjie/KDevTool</link>
-        <description>KDevTool release feed.</description>
-        <language>en</language>
     </channel>
 </rss>
